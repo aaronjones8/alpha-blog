@@ -1,6 +1,7 @@
 <h1 align="center">All Alpha Bloggers</h1>
 
 <div class="center">
+    <%= will_paginate %>
     <% @users.each do |user| %>
     
         <ul class="listing">
@@ -22,5 +23,5 @@
         </ul>
     
     <% end %>
-
+    <%= will_paginate %>
 </div>
